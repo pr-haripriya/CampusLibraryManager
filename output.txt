@@ -1,0 +1,13 @@
+Alice borrowed: Book: Python 101 by A. Rao (ID 1)
+Could not borrow: Python 101 (1) is not available
+Borrow-limit reached: Alice already borrowed maximum number of items : 3
+Borrowed by Alice: ['Python 101', 'Python weekly', 'Python tutorials']
+Borrowed by Bob: []
+Alice returns Python 101 with late-fee => 0
+Not-Borrowed: Python 101 (1) is not borrowed by Bob so cannot be returned.
+Book: Python 101 by A. Rao (ID 1) -> late fee for 3 days: Rs 6
+Magazine: Python weekly in the issue 154 (ID 2) -> late fee for 3 days: Rs 3
+DVD: Python tutorials with duration of 60 minutes (ID 3) -> late fee for 3 days: Rs 15
+Total items created: 4
+Attribute error: 'Book' object has no attribute '__available'
+Book available? True
